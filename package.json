@@ -1,0 +1,42 @@
+{
+  "name": "@actionsflow/trigger-xml2json",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "xml2json",
+    "actionsflow",
+    "trigger"
+  ],
+  "author": "redpeacock78",
+  "homepage": "https://github.com/redpeacock78/actionsflow-trigger-xml2json",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redpeacock78/actionsflow-trigger-xml2json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/redpeacock78/actionsflow-trigger-xml2json/issues"
+  },
+  "devDependencies": {
+    "actionsflow-core": "^1.5.4",
+    "eslint": "^7.13.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "rss-parser": "^3.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
